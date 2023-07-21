@@ -1,0 +1,7 @@
+/build
+/extern
+/src
+/test
+/CMakeLists.txt
+/vcpkg_installed
+/vcpkg.json
