@@ -68,7 +68,7 @@ if os.path.exists(src_cmake):
   print("There is src/CMakeLists.txt")
 else:
     #  copy CMakeLists.txt
-    source_file = os.getcwd()+'/cmake/txt/srcConfig.cmake'
+    source_file = os.getcwd()+'/cmake/txt/SrcConfig.cmake'
     target_file = os.getcwd()+'/src/CMakeLists.txt'
     shutil.copyfile(source_file, target_file)
     print("Create src/CMakeLists.txt")
